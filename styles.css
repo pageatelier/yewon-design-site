@@ -2578,3 +2578,42 @@ body{
 
   color:#fff !important;
 }
+
+.mobile-menu{
+  position:fixed !important;
+  z-index:100 !important;
+  inset:0 !important;
+  display:none !important;
+
+  flex-direction:column !important;
+  justify-content:flex-end !important;
+
+  padding:max(24px,env(safe-area-inset-top)) 22px 46px !important;
+
+  background-color:#9f8057 !important;
+  color:#f3efe8 !important;
+
+  overflow:hidden;
+}
+
+.mobile-menu::after{
+  content:"";
+  position:absolute;
+  inset:0;
+
+  background-image:url("assets/logo.webp");
+  background-repeat:repeat;
+  background-size:110px auto;
+  background-position:18px 30px;
+
+  opacity:.045;
+
+  filter:brightness(0) invert(1);
+
+  pointer-events:none;
+}
+
+.mobile-menu > *{
+  position:relative;
+  z-index:2;
+}
