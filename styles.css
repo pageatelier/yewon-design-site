@@ -2263,3 +2263,318 @@ body{
     font-size:25px;
   }
 }
+
+/* =========================================================
+   FINAL SECTION RHYTHM
+   About L → Projects R → Detail L → Film R
+   → Experience L → Process C → Contact R
+========================================================= */
+
+/* -------------------------
+   01 ABOUT — LEFT
+------------------------- */
+.intro .section-label,
+.intro-title,
+.intro-title h2{
+  text-align:left !important;
+}
+
+.intro-title{
+  justify-self:start;
+}
+
+.intro-copy{
+  text-align:left;
+}
+
+
+/* -------------------------
+   02 PROJECTS — RIGHT
+------------------------- */
+.projects .section-head{
+  display:flex !important;
+  flex-direction:column;
+  align-items:flex-end;
+  width:100%;
+  margin-bottom:62px;
+  text-align:right;
+}
+
+.projects .section-label{
+  width:auto !important;
+  margin:0 0 18px !important;
+  text-align:right !important;
+}
+
+.projects .section-head h2{
+  width:auto !important;
+  max-width:620px !important;
+  margin:0 0 0 auto !important;
+  text-align:right !important;
+}
+
+
+/* -------------------------
+   03 SIGNATURE — LEFT
+------------------------- */
+.signature-head{
+  margin-left:0 !important;
+  margin-right:auto !important;
+  text-align:left !important;
+}
+
+.signature-head .section-label,
+.signature-head h2,
+.signature-intro{
+  text-align:left !important;
+}
+
+
+/* -------------------------
+   04 FILM / YOUTUBE — RIGHT
+------------------------- */
+.film .section-head{
+  display:flex !important;
+  flex-direction:column;
+  align-items:flex-end;
+  width:100%;
+  margin-bottom:54px;
+  text-align:right;
+}
+
+.film .section-label{
+  width:auto;
+  margin:0 !important;
+  text-align:right !important;
+}
+
+
+/* -------------------------
+   05 EXPERIENCE — LEFT
+   텍스트 영역은 화면 오른쪽에 있지만
+   내용 자체는 왼쪽 정렬로 대비
+------------------------- */
+.experience-copy{
+  align-items:flex-start;
+  text-align:left;
+}
+
+.experience-copy .section-label,
+.experience-copy h2,
+.experience-copy>p:last-child{
+  text-align:left !important;
+  margin-left:0 !important;
+  margin-right:auto !important;
+}
+
+
+/* -------------------------
+   06 PROCESS — CENTER
+------------------------- */
+.process .section-head{
+  display:flex !important;
+  flex-direction:column;
+  align-items:center;
+  width:100%;
+  margin-bottom:64px;
+  text-align:center;
+}
+
+.process .section-label{
+  margin:0 0 18px !important;
+  text-align:center !important;
+}
+
+.process .section-head h2{
+  max-width:700px !important;
+  margin:0 auto !important;
+  text-align:center !important;
+}
+
+/* 진행과정 리스트도 헤더와 살짝 호흡 맞추기 */
+.process-list{
+  max-width:1180px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+/* -------------------------
+   07 CONTACT — RIGHT
+   상단 카피만 우측 정렬,
+   주소/전화/인스타 정보는 가독성 위해 좌측 유지
+------------------------- */
+.contact-top{
+  max-width:1000px;
+  margin-left:auto;
+  margin-right:0;
+  text-align:right;
+}
+
+.contact-kicker{
+  text-align:right !important;
+}
+
+.contact-top h2{
+  max-width:760px !important;
+  margin-left:auto !important;
+  margin-right:0 !important;
+  text-align:right !important;
+}
+
+.contact-details{
+  text-align:left;
+}
+
+.contact-detail,
+.contact-detail span,
+.contact-detail strong,
+.contact-detail small{
+  text-align:left;
+}
+
+
+/* =========================================================
+   MOBILE RHYTHM
+========================================================= */
+@media(max-width:820px){
+
+  /* About — left */
+  .intro .section-label,
+  .intro-title,
+  .intro-title h2{
+    text-align:left !important;
+  }
+
+  /* Projects — right */
+  .projects .section-head{
+    align-items:flex-end;
+    padding-left:11px;
+    padding-right:11px;
+    margin-bottom:30px;
+    text-align:right;
+  }
+
+  .projects .section-label{
+    margin-bottom:14px !important;
+    text-align:right !important;
+  }
+
+  .projects .section-head h2{
+    max-width:330px !important;
+    margin-left:auto !important;
+    text-align:right !important;
+  }
+
+  /* Signature — left */
+  .signature-head{
+    text-align:left !important;
+  }
+
+  .signature-head h2,
+  .signature-intro{
+    text-align:left !important;
+  }
+
+  /* Film — right */
+  .film .section-head{
+    align-items:flex-end;
+    margin-bottom:40px;
+    text-align:right;
+  }
+
+  .film .section-label{
+    text-align:right !important;
+  }
+
+  /* Experience — left */
+  .experience-copy{
+    align-items:flex-start;
+    text-align:left;
+  }
+
+  .experience-copy .section-label,
+  .experience-copy h2,
+  .experience-copy>p:last-child{
+    width:100% !important;
+    margin-left:0 !important;
+    text-align:left !important;
+  }
+
+  /* Process — center */
+  .process .section-head{
+    align-items:center;
+    margin-bottom:46px;
+    text-align:center;
+  }
+
+  .process .section-label{
+    margin-bottom:14px !important;
+    text-align:center !important;
+  }
+
+  .process .section-head h2{
+    max-width:330px !important;
+    margin:0 auto !important;
+    text-align:center !important;
+  }
+
+  /* Contact — right title, left info */
+  .contact-top{
+    margin-left:auto;
+    margin-right:0;
+    text-align:right;
+  }
+
+  .contact-kicker{
+    text-align:right !important;
+  }
+
+  .contact-top h2{
+    max-width:340px !important;
+    margin-left:auto !important;
+    margin-right:0 !important;
+    text-align:right !important;
+  }
+
+  .contact-details{
+    text-align:left;
+  }
+}
+
+
+/* PROJECTS 헤더 간격 조정 */
+.projects .section-head{
+  gap:0 !important;
+  margin-bottom:38px !important;
+}
+
+.projects .section-label{
+  margin:0 0 20px !important;
+}
+
+.projects .section-head h2{
+  margin:10 !important;
+}
+
+@media(max-width:820px){
+  .projects{
+    padding-top:68px;
+  }
+}
+
+
+.contact{
+  position:relative !important;
+  overflow:hidden;
+  padding:clamp(110px,12vw,180px) 0 26px !important;
+
+  background:
+    linear-gradient(
+          rgba(135,111,79,.78),
+    rgba(135,111,79,.84)
+    ),
+    url("assets/project10.webp") center/cover no-repeat !important;
+
+  color:#fff !important;
+}
