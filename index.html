@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="description" content="예원 인테리어 디자인 — 인천 송도 주거 인테리어" />
+  <title>예원 인테리어 디자인</title>
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/subsets/Paperlogy-dynamic-subset.css" type="text/css"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="예원 인테리어 디자인 홈">
+      <img src="assets/logo.png" alt="YEWON interior design" />
+    </a>
+
+    <nav class="desktop-nav" aria-label="주요 메뉴">
+      <a href="#about">예원</a>
+      <a href="#projects">프로젝트</a>
+      <a href="#film">유튜브 영상</a>
+      <a href="#process">진행 과정</a>
+      <a href="#contact">상담 문의</a>
+    </nav>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="메뉴 열기">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <button class="menu-close" type="button" aria-label="메뉴 닫기">
+      <span></span><span></span>
+    </button>
+    <a href="#about">예원</a>
+    <a href="#projects">프로젝트</a>
+    <a href="#film">영상</a>
+    <a href="#process">진행 과정</a>
+    <a href="#contact">상담 문의</a>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-media">
+        <div class="hero-slider hero-slider-desktop">
+          <video class="hero-video is-active" muted playsinline preload="auto">
+            <source src="assets/desktop-hero-01.mp4" type="video/mp4" />
+          </video>
+          <video class="hero-video" muted playsinline preload="metadata">
+            <source src="assets/desktop-hero-02.mp4" type="video/mp4" />
+          </video>
+          <video class="hero-video" muted playsinline preload="metadata">
+            <source src="assets/desktop-hero-03.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="hero-slider hero-slider-mobile">
+          <video class="hero-video is-active" muted playsinline preload="auto">
+            <source src="assets/mobile-hero-01.mp4" type="video/mp4" />
+          </video>
+          <video class="hero-video" muted playsinline preload="metadata">
+            <source src="assets/mobile-hero-02.mp4" type="video/mp4" />
+          </video>
+          <video class="hero-video" muted playsinline preload="metadata">
+            <source src="assets/mobile-hero-03.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content reveal">
+        <h1>YEWON<br>INTERIOR<br>DESIGN</h1>
+        <a href="#projects" class="text-link">프로젝트 보기 <span>↘</span></a>
+      </div>
+
+      <div class="hero-counter" aria-hidden="true">
+        <span class="hero-current">01</span>
+        <i></i>
+        <span>03</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="intro section" id="about">
+      <div class="shell intro-grid">
+        <p class="section-label reveal">YEWON INTERIOR DESIGN</p>
+
+        <div class="intro-title reveal">
+          <h2>❝특별한 공간으로 <br>디자인 합니다❞</h2>
+        </div>
+
+        <div class="intro-copy reveal">
+          <p>예원 인테리어는 송도, 강서 지역의 주거 공간을 중심으로 디자인과 시공을 진행합니다. 
+            가족 구성과 생활 방식, 기존 공간의 구조를 확인한 뒤 필요한 부분부터 차근차근 정리합니다.</p>
+          <p>마감재와 가구, 조명도 사진으로 보기 좋은 것보다 실제 생활에서 편하게 사용할 수 있는지를 중요하게 봅니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="section-label">Projects</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project reveal">
+            <div class="project-media project-slider" data-project-slider>
+              <img class="project-slide is-active" src="assets/work1.png" alt="송도 디에트르 시그니처뷰 43평">
+              <img class="project-slide" src="assets/work1-2.png" alt="송도 디에트르 시그니처뷰 43평">
+              <img class="project-slide" src="assets/work1-3.png" alt="송도 디에트르 시그니처뷰 43평">
+              <button class="project-arrow project-prev" type="button" aria-label="이전 사진">←</button>
+              <button class="project-arrow project-next" type="button" aria-label="다음 사진">→</button>
+              <div class="project-dots" aria-label="프로젝트 이미지 선택">
+                <button class="is-active" type="button" aria-label="1번 사진"></button>
+                <button type="button" aria-label="2번 사진"></button>
+                <button type="button" aria-label="3번 사진"></button>
+              </div>
+            </div>
+            <div class="project-meta">
+              <div><span>01</span><h3>송도 디에트르 시그니처뷰 43평</h3></div>
+              <p>주거 · 미니멀 · 우드 포인트</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media project-slider" data-project-slider>
+              <img class="project-slide is-active" src="assets/project10.png" alt="송도 더샵마스터뷰 펜트하우스 74평">
+              <img class="project-slide" src="assets/project10-2.png" alt="송도 더샵마스터뷰 펜트하우스 74평">
+              <img class="project-slide" src="assets/project10-3.png" alt="송도 더샵마스터뷰 펜트하우스 74평">
+              <button class="project-arrow project-prev" type="button" aria-label="이전 사진">←</button>
+              <button class="project-arrow project-next" type="button" aria-label="다음 사진">→</button>
+              <div class="project-dots" aria-label="프로젝트 이미지 선택">
+                <button class="is-active" type="button" aria-label="1번 사진"></button>
+                <button type="button" aria-label="2번 사진"></button>
+                <button type="button" aria-label="3번 사진"></button>
+              </div>
+            </div>
+            <div class="project-meta">
+              <div><span>02</span><h3>송도 더샵마스터뷰 펜트하우스 74평</h3></div>
+              <p>펜트하우스 · 클래식 · 맞춤가구</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media project-slider" data-project-slider>
+              <img class="project-slide is-active" src="assets/project7.png" alt="송도 더샵 마스터뷰 34평">
+              <img class="project-slide" src="assets/project7-2.png" alt="송도 더샵 마스터뷰 34평">
+              <img class="project-slide" src="assets/project7-3.png" alt="송도 더샵 마스터뷰 34평">
+              <button class="project-arrow project-prev" type="button" aria-label="이전 사진">←</button>
+              <button class="project-arrow project-next" type="button" aria-label="다음 사진">→</button>
+              <div class="project-dots" aria-label="프로젝트 이미지 선택">
+                <button class="is-active" type="button" aria-label="1번 사진"></button>
+                <button type="button" aria-label="2번 사진"></button>
+                <button type="button" aria-label="3번 사진"></button>
+              </div>
+            </div>
+            <div class="project-meta">
+              <div><span>03</span><h3>송도 더샵 마스터뷰 34평</h3></div>
+              <p>주거 · 내추럴 · 소프트 톤</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media project-slider" data-project-slider>
+              <img class="project-slide is-active" src="assets/work4.png" alt="강서 마곡엠벨리 6단지 34평형">
+              <img class="project-slide" src="assets/work4-2.png" alt="강서 마곡엠벨리 6단지 34평형">
+              <img class="project-slide" src="assets/work4-3.png" alt="강서 마곡엠벨리 6단지 34평형">
+              <button class="project-arrow project-prev" type="button" aria-label="이전 사진">←</button>
+              <button class="project-arrow project-next" type="button" aria-label="다음 사진">→</button>
+              <div class="project-dots" aria-label="프로젝트 이미지 선택">
+                <button class="is-active" type="button" aria-label="1번 사진"></button>
+                <button type="button" aria-label="2번 사진"></button>
+                <button type="button" aria-label="3번 사진"></button>
+              </div>
+            </div>
+            <div class="project-meta">
+              <div><span>04</span><h3>강서 마곡엠벨리 6단지 34평형</h3></div>
+              <p>주거 · 모던 · 간접조명</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+<!-- SIGNATURE DETAIL -->
+<section class="signature-detail section-soft">
+
+  <div class="signature-head reveal">
+    <p class="section-label">YEWON DESIGN STANDARD</p>
+
+    <h2>
+      ❝디테일의 차이를<br>
+      확인하세요.❞
+    </h2>
+
+    <p class="signature-intro">
+      예원은 눈에 잘 띄지 않는 작은 디테일까지 공간의 일부로 생각합니다.
+      소재의 연결, 가구의 비례, 빛이 머무는 방향까지 세심하게 조율해
+      시간이 지나도 편안하고 아름다운 공간을 만듭니다.
+    </p>
+  </div>
+
+
+  <div class="signature-gallery">
+
+    <!-- MAIN IMAGE -->
+    <figure class="signature-main reveal">
+      <img
+        src="assets/project1.png"
+        alt="송도 예원 인테리어 프리미엄 주거 공간"
+      >
+
+      <figcaption>
+        <span>01</span>
+        <div>
+          <strong>공간의 균형</strong>
+          <p>
+            구조와 가구, 여백이 자연스럽게 이어지는 비례를 설계합니다.
+          </p>
+        </div>
+      </figcaption>
+    </figure>
+
+
+    <div class="signature-side">
+
+      <!-- DETAIL IMAGE 01 -->
+      <figure class="signature-item reveal">
+        <img
+          src="assets/detail2.png"
+          alt="예원 인테리어 소재 디테일"
+        >
+
+        <figcaption>
+          <span>02</span>
+
+          <div>
+            <strong>Material</strong>
+
+            <p>
+              하나의 소재보다 서로 다른 질감이 만나는 방식까지
+              섬세하게 선택합니다.
+            </p>
+          </div>
+        </figcaption>
+      </figure>
+
+
+      <!-- DETAIL IMAGE 02 -->
+      <figure class="signature-item reveal">
+        <img
+          src="assets/detail3.png"
+          alt="예원 인테리어 조명과 공간 디테일"
+        >
+
+        <figcaption>
+          <span>03</span>
+
+          <div>
+            <strong>Light & Detail</strong>
+
+            <p>
+              자연광과 조명이 공간의 깊이와 분위기를
+              가장 아름답게 보여주도록 계획합니다.
+            </p>
+          </div>
+        </figcaption>
+      </figure>
+
+    </div>
+
+  </div>
+
+</section>
+
+    <!-- FILM -->
+    <section class="film section" id="film">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="section-label">YEWON IN YOUTUBE</p>
+        </div>
+
+        <div class="film-grid">
+          <article class="film-card reveal">
+            <a class="film-thumb" href="https://www.youtube.com/watch?v=PQ4N2h52B6s" target="_blank" rel="noopener" aria-label="예원 인테리어 소개 영상 보기">
+              <img src="assets/youtube1.png" alt="예원 인테리어 영상 썸네일">
+              <span class="play-button">PLAY</span>
+            </a>
+            <p><span>01</span> 예원 인테리어 소개</p>
+          </article>
+
+          <article class="film-card reveal">
+            <a class="film-thumb" href="https://www.youtube.com/watch?v=IWHvMiceT8E" target="_blank" rel="noopener" aria-label="예원 인테리어 시공 과정 영상 보기">
+              <img src="assets/youtube2.png" alt="예원 인테리어 시공 과정 영상 썸네일">
+              <span class="play-button">PLAY</span>
+            </a>
+            <p><span>02</span> 작업 현장과 시공 과정</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience section-soft">
+      <div class="experience-photo">
+        <img src="assets/16years.png" alt="예원 인테리어 주거 공간">
+      </div>
+
+      <div class="experience-copy reveal">
+        <p class="section-label">19 Years of Experience</p>
+        <h2>❝19년 동안 다양한 주거 공간을 작업해왔습니다.❞</h2>
+        <p>현장마다 구조와 조건이 다르기 때문에 공간에 맞는 방법을 찾습니다.
+          고객님의 취향을 반영한 분위기를 연출하고,  
+          오래도록 아름답게 사용하실 수 있는 품격있는 인테리어로 완성합니다.</p>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section" id="process">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="section-label">진행 과정</p>
+          <h2>상담 후 아래 순서로 진행됩니다.</h2>
+        </div>
+
+        <div class="process-list">
+          <div class="reveal"><span>01</span><h3>상담</h3><p>공간의 위치와 평형, 공사 범위, 예산과 일정을 먼저 확인합니다.</p></div>
+          <div class="reveal"><span>02</span><h3>현장 확인</h3><p>현장을 방문해 실측하고 구조와 시공 조건을 확인합니다.</p></div>
+          <div class="reveal"><span>03</span><h3>디자인 · 견적</h3><p>공간 구성과 마감재를 정리한 뒤 세부 견적을 안내합니다.</p></div>
+          <div class="reveal"><span>04</span><h3>시공</h3><p>공정별 일정에 맞춰 공사를 진행하고 현장 상태를 확인합니다.</p></div>
+          <div class="reveal"><span>05</span><h3>마무리</h3><p>공사 완료 후 전체 공간을 점검한 뒤 인도합니다.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="shell contact-inner">
+
+        <div class="contact-top reveal">
+          <p class="contact-kicker">CONTACT</p>
+
+          <h2>
+            LET’S TALK<br>
+            ABOUT YOUR SPACE.
+          </h2>
+
+          <p class="contact-lead">
+            공간과 일정에 대해 편하게 문의해주세요.
+          </p>
+        </div>
+
+        <div class="contact-details reveal">
+          <a
+            class="contact-detail"
+            href="https://maps.google.com/?q=인천 연수구 해돋이로 107"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>LOCATION</span>
+            <strong>INCHEON, SONGDO</strong>
+            <small>더샵 퍼스트월드 상가 G동 2층</small>
+          </a>
+
+          <a class="contact-detail" href="tel:01091668898">
+            <span>PHONE</span>
+            <strong>010 9166 8898</strong>
+            <small>상담 전화</small>
+          </a>
+
+          <a
+            class="contact-detail"
+            href="https://www.instagram.com/design_yewon/"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>INSTAGRAM</span>
+            <strong>@design_yewon ↗</strong>
+            <small>Projects & Updates</small>
+          </a>
+        </div>
+
+        <a class="contact-cta reveal" href="tel:01091668898">
+          <span>상담 문의하기</span>
+          <span class="contact-cta-arrow">↗</span>
+        </a>
+
+        <footer class="contact-footer">
+          <span>YEWON INTERIOR DESIGN</span>
+          <span>© 2026</span>
+          <a href="#top">TOP ↑</a>
+        </footer>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
